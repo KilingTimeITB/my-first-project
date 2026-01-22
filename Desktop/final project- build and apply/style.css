@@ -241,7 +241,7 @@ color: #fff;
   justify-content: center;
 }
 
-#features .row__narrow {
+#features .row {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -282,9 +282,6 @@ h3.feature__title {
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   font-size: 24px;
-}
-
-.feature__card {
   padding: 30px;
   border-radius: 10px;
   text-align: center;
