@@ -10,7 +10,8 @@
   <body>
 
     <div class="landing__flex--container">
-      <nav class="nav__row">
+      
+ <nav class="nav__row">
         <figure class="nav__logo--wrapper">
            <img src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" class="nav__logo" alt="logo">
            <span class="nav__logo--text">Treact</span>
@@ -27,7 +28,34 @@
             </ul>
           </div>
     </div>
-    </nav>
+    <button class="btn__menu" onclick="openMenu()">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="Menu__backdrop">
+    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+      <i class="fas fa-times"></i>
+    </button>
+   <ul class="menu__links">
+    <li class="menu_list">
+      <a href="#testimonials" class="menu_link">About</a></li>
+   
+      <li class="menu_list">
+      <a href="#" class="menu_link">Blog</a></li>
+      
+      <li class="menu_list">
+        <a href="#pricing" class="menu_link">Pricing</a></li> 
+        
+        <li class="menu_list">
+          <a href="#" class="menu_link">Contact</a>
+        
+        </li> <li class="menu_list">
+            <a href="#" class="menu_link">Login</a></li>
+          
+            <li class="menu_list">
+          <a href="#sign-up" class="menu_link">Sign Up</a>
+          </li>
+   </ul>
+   </nav>
 </div>
   <section id="header">
       <div class="header__container">
