@@ -202,7 +202,7 @@ color:rgb(240, 226, 226);
 }
   
 .header__input {
-  display: flex
+  display: flex;
   border: 1px solid rgb(229, 231,235);
 color: #fff;
   font-weight: 700;
@@ -586,22 +586,12 @@ div.feature__card:nth-child(1) {
       margin: 24px;
       padding: 24px;
     }
-    div.pricing__middle:nth-child(5) > p:nth-child(1) {
-      align-content: center;
-      display: flex;
-      justify-content: center;
-    }
-    h4.pricing__plan:nth-child(1) {
-      align-content: center;
-      display: flex;
-      justify-content: center;
-    }
-    div.pricing__middle:nth-child(2) > p:nth-child(1) {
-      align-content: center;
-      display: flex;
-      justify-content: center;
-    }
-    h4.pricing__plan:nth-child(3) {
+    div.pricing__middle:nth-child(5) > p:nth-child(1),
+    h4.pricing__plan:nth-child(1),
+    div.pricing__middle:nth-child(2) > p:nth-child(1),
+    h4.pricing__plan:nth-child(3),
+    div.pricing__middle:nth-child(6) > p:nth-child(1),
+    h4.pricing__plan:nth-child(2) {
       align-content: center;
       display: flex;
       justify-content: center;
@@ -609,14 +599,8 @@ div.feature__card:nth-child(1) {
     div.pricing__middle:nth-child(6) {
       align-content: center;
      justify-content: center;
-    }
-    div.pricing__middle:nth-child(6) > p:nth-child(1) {
-      align-content: center;
-      display: flex;
-      justify-content: center;
-    }
-    
-    .pricing__card--1 {
+}
+ .pricing__card--1 {
       width: calc(100%/3);
     }
     .pricing__card--1__strip {
@@ -654,11 +638,7 @@ div.feature__card:nth-child(1) {
       padding: 8px;
     }
     
-    h4.pricing__plan:nth-child(2) {
-      align-content: center;
-      display: flex;
-      justify-content: center;
-    }
+ 
     .pricing__card--3 {
       width: calc(100%/3);
     }
@@ -768,6 +748,7 @@ div.feature__card:nth-child(1) {
     .testimonials__stars {
       color: gold;
       margin-bottom: 20px;
+      display: contents;
     }
     
     .testimonials__summary,
@@ -936,10 +917,7 @@ div.feature__card:nth-child(1) {
     ---------------------------------
     -------------------------------*/
     @media(max-width: 1280px) {
-      .header__row {
-          /*! align-items: flex-end; */
-      }
-  }
+    }
     
     
     /*-------------------------------
