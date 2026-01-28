@@ -718,7 +718,6 @@ div.feature__card:nth-child(2) > div:nth-child(2) > h4:nth-child(1) {
     }
     .pricing__features {
       list-style: none;
-      /*! margin: 4px 0; */
       display: flex;
       justify-content: center;
       align-items: center;
